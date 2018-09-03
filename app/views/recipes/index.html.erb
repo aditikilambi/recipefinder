@@ -1,9 +1,8 @@
 
 <%if @to_search.nil? %>
 	<h1>Enter a search term to begin your recipe search!<h1>
-	<p>Try "?search=chocolate" in the URL</p>
-<%elsif @find == 0%>
-	<h1>No results found for that search. Try again. </h1>
+	<h1>Try appending "/?search=chocolate" to the URL</h1>
+
 <%else%>
 	<h1>Seaching for: <%=  @to_search  %></h1>
 	<table border="1">
