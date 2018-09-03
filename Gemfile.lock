@@ -193,7 +193,7 @@ DEPENDENCIES
   httparty
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  pg (~> 1.1.2)
   phantomjs (~> 1.9.8.0)
   poltergeist (~> 1.6.0)
   rails (= 4.2.8)
@@ -212,4 +212,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.2
+   1.16.4
