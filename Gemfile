@@ -13,7 +13,6 @@ gem 'therubyracer', platforms: :ruby
 gem 'capybara', '~> 2.4.4'
 gem 'poltergeist', '~> 1.6.0'
 gem 'phantomjs', '~> 1.9.8.0'
-gem 'pg'
 
 gem 'web-console', '~> 2.0', group: :development
 
@@ -27,7 +26,7 @@ group :development, :test do
 end
 
 group :production do 
-	gem 'pg'
+	gem 'pg', '~> 0.15'
 	gem 'rails_12factor'
 end
 
